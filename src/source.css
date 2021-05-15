@@ -83,3 +83,29 @@
 ::-webkit-scrollbar-track {
     display: none !important;
 }
+/* Separate the channels list from the chat box. - 755166410824482937 */
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+  border-radius: 15px 15px 0 0 !important
+}
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  position: relative;
+  left: 5px;
+  padding-right: 5px
+}
+/* swag member-chat idk what to call it - 764063430076137493 */
+.members-1998pB {
+  border-radius: 15px 15px 0 0 !important;
+}
+.membersWrap-2h-GB4, .members-1998pB {
+  left: 15px;
+  margin-right: 10px
+}
+.chat-3bRxxu {
+  background: var(--background-tertiary);
+}
+.chatContent-a9vAAp {
+  background-color: var(--background-primary);
+  border-radius: 0 15px 0 0 !important;
+  left: 25px;
+  margin-left: -25px
+}
