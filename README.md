@@ -1,4 +1,4 @@
 # material-cord
-Yet another dark Powercord theme, based off the colors of the GTK material-black (blueberry) theme.
+Yet another dark Powercord theme.
 
-###### **now maintained by _kixt0!_**
+###### **maintained by both _sneexy_boi_ and _kixt0!_**
