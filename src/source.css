@@ -1,6 +1,21 @@
 @import "https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css";
 /* forked off Theme-Source by LuckFire, amazing person */
 
+/* userarea Thing */
+.container-3baos1 {
+   background-color: #0F1011;
+   margin-bottom: 0px;
+   padding: 0 55px;
+}
+.activityPanel-28dQGo {
+   background-color: #0F1011;
+}
+/* no scrollbar */
+::-webkit-scrollbar-thumb {
+    {display: none !important;}
+}
+::-webkit-scrollbar-track 
+    {display: none !important;}
 /* popup/confirmation boxes */
 .theme-dark .message-2qRu38 { background-color: #1A1C1E; }
 .theme-dark .root-1gCeng { background-color: #1A1C1E; }
@@ -72,10 +87,6 @@
 .activityPanel-28dQGo {
     background-color: #0F1011;
 }
-/* textarea thing */
-.scrollableContainer-2NUZem {
-  background-color: #2e3236;
-}
 /* no scrollbar */
 ::-webkit-scrollbar-thumb {
     display: none !important;
@@ -83,7 +94,7 @@
 ::-webkit-scrollbar-track {
     display: none !important;
 }
-/* Separate the channels list from the chat box. - 755166410824482937 */
+/* Separate the channels & members list from chat. - 755166410824482937, 764063430076137493 */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
   border-radius: 15px 15px 0 0 !important
 }
@@ -92,7 +103,6 @@
   left: 5px;
   padding-right: 5px
 }
-/* swag member-chat idk what to call it - 764063430076137493 */
 .members-1998pB {
   border-radius: 15px 15px 0 0 !important;
 }
