@@ -1,15 +1,8 @@
 @import "https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css";
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/MoreRoundedBorders/borders.css");
 /* forked off Theme-Source by LuckFire, amazing person */
+/* "I was thinking of making pretty much everything round though" well here you go kix - ruben */
 
-/* userarea Thing */
-.container-3baos1 {
-   background-color: #0F1011;
-   margin-bottom: 0px;
-   padding: 0 55px;
-}
-.activityPanel-28dQGo {
-   background-color: #0F1011;
-}
 /* no scrollbar */
 ::-webkit-scrollbar-thumb {
     {display: none !important;}
@@ -29,6 +22,17 @@
 /* text channel creation */
 .modal-2VIBV8.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y { background-color: #1A1C1E; }
 .modal-2VIBV8.root-1gCeng > .footer-2gL1pp { background-color: #151718; }
+/* roundify more things */
+.content-1x5b-n,
+.layout-2DM8Md {
+    border-radius: 50px;
+}
+.wrapper-2aW0bm,.button-1ZiXG9.selected-LCBEAU,.button-1ZiXG9,.powercord-snippet-apply:not(.applied) div:hover,.powercord-snippet-apply div  {
+   border-radius: 24px !important;
+}
+​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
+.submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
 
 /* snippets taken from the powercord community, each having the id to the original message */
 
@@ -78,15 +82,6 @@
   padding-bottom: 10px;
   top: 5px;
 }
-/* userarea Thing */
-.container-3baos1 {
-   background-color: #0F1011;
-   margin-bottom: 0px;
-   padding: 0 55px;
-}
-.activityPanel-28dQGo {
-    background-color: #0F1011;
-}
 /* Separate the channels & members list from chat. - 755166410824482937, 764063430076137493 */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
   border-radius: 15px 15px 0 0 !important
@@ -112,36 +107,8 @@
   left: 25px;
   margin-left: -25px
 }
-/* minified searchbar - 819862857494822923 */
-.searchBar-3dMhjb {
-  order: -1;
-  width: 28px;
-}
-/* Compact Status Menu - 760824503571316746 */
-.status-1fhblQ, .description-2L932D {
-    display: none;
-}
-.separator-2I32lJ {
-    display: none;
-}
-.mask-1qbNWk.icon-1IxfJ2 {
-    --status-icon-size: 75%;
-    height: var(--status-icon-size); 
-    width: var(--status-icon-size);
-    margin-left: 33%;
-}
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    visibility: visible;
-}
-.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
-    grid-column: 1/5;
-}
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
-    transition: opacity 0.15s linear 0s;
-}
-.customText-tY5LJn {
-    font-size: 15px;
-}
+/* Minified search bar - 824363024701063198 */
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
