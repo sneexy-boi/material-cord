@@ -87,13 +87,6 @@
 .activityPanel-28dQGo {
     background-color: #0F1011;
 }
-/* no scrollbar */
-::-webkit-scrollbar-thumb {
-    display: none !important;
-}
-::-webkit-scrollbar-track {
-    display: none !important;
-}
 /* Separate the channels & members list from chat. - 755166410824482937, 764063430076137493 */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
   border-radius: 15px 15px 0 0 !important
@@ -123,7 +116,6 @@
 .searchBar-3dMhjb {
   order: -1;
   width: 28px;
-  transition: width 0.1s ease-in-out;
 }
 /* Compact Status Menu - 760824503571316746 */
 .status-1fhblQ, .description-2L932D {
