@@ -3,6 +3,10 @@
 /* forked off Theme-Source by LuckFire, amazing person */
 /* "I was thinking of making pretty much everything round though" well here you go kix - ruben */
 
+/* color fixes */
+.container-3baos1 {
+  background-color: #0F1011
+}
 /* no scrollbar */
 ::-webkit-scrollbar-thumb {
     {display: none !important;}
