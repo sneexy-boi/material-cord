@@ -3,12 +3,6 @@
 /* forked off Theme-Source by LuckFire, amazing person */
 /* "I was thinking of making pretty much everything round though" well here you go kix - ruben */
 
-/* no scrollbar */
-::-webkit-scrollbar-thumb {
-    {display: none !important;}
-}
-::-webkit-scrollbar-track 
-    {display: none !important;}
 /* popup/confirmation boxes */
 .theme-dark .message-2qRu38 { background-color: #1A1C1E; }
 .theme-dark .root-1gCeng { background-color: #1A1C1E; }
