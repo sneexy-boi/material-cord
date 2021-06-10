@@ -1,4 +1,4 @@
-# NOTE: Now being maintained as a side-project. Feel free to talk with us on discord (Sneexy#2980 and kipa#2021) if theres any problem you encounter. Thanks for being with us!
+# NOTE: Now being maintained as a side-project. Feel free to talk with us on discord (Sneexy#2980 and kipa#2021) if there's any problem you encounter. Thanks for being with us!
 
 
 # material-cord
