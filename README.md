@@ -1,11 +1,7 @@
-# NOTE: Now being maintained as a side-project. Feel free to talk with us on discord (Sneexy#2980 and kixti#2021) if there's any problem you encounter. Thanks for being with us!
-
+# NOTE: Material-Cord is no longer being actively developed. Please talk to me (kixti#2021) if you have any issues.
 
 # material-cord
 Yet another dark Powercord theme.
 
 
 ![Screenshot of material-cord](https://github.com/sneexy-boi/material-cord/blob/main/docs/screenshot.png)
-
-
-###### **maintained by both _sneexy_boi_ and _kixt0!_**
