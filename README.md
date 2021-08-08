@@ -1,4 +1,4 @@
-# NOTE: MATERIAL-CORD IS NO LONGER BEING DEVELOPED!
+# NOTE: Due to personal issues, Material-Cord will not be updated as often anymore. However, I will try my best to fix any bugs when I can.
 
 # material-cord
 Yet another dark Powercord theme.
